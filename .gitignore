@@ -1,0 +1,16 @@
+# GIS 课程数据（体积大，不上传）
+data/
+
+# 超大 notebook（57MB，内嵌图片导致）
+osm_example.ipynb
+
+# Python
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+
+# Claude Code 本地设置
+.claude/settings.local.json
+
+# 含高德 API 密钥，暂不上传
+amap_poi_search.py
